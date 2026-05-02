@@ -1,5 +1,13 @@
 ---
 name: problem-retrospect
+version: 1.0.0
+author: zhilshi
+license: MIT-0
+category: workflow
+tags: [retrospect, problem-solving, 5why, AAR, A3, danaher, root-cause]
+created: 2026-05-02
+updated: 2026-05-02
+repository: https://github.com/zhilshi/problem-retrospect-skill
 description: |
   问题复盘技能 - 采用丹纳赫方法论进行系统性问题复盘，生成向上汇报文档。
 

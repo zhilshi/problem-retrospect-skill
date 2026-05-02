@@ -1,0 +1,86 @@
+{
+  "name": "problem-retrospect",
+  "version": "1.0.0",
+  "author": "zhilshi",
+  "license": "MIT-0",
+  "category": "workflow",
+  "tags": [
+    "retrospect",
+    "problem-solving",
+    "5why",
+    "AAR",
+    "A3",
+    "danaher",
+    "root-cause",
+    "复盘",
+    "问题分析"
+  ],
+  "description": {
+    "short": "问题复盘技能 - 支持3种方法论，生成向上汇报文档",
+    "full": "采用丹纳赫方法论进行系统性问题复盘，支持标准模式（丹纳赫5Why）、AAR快速模式、A3可视化报告三种模式。5阶段流程+多Agent并行调研+检查点确认，适用于项目交付问题、跨部门协作冲突、排期偏差等需要向上汇报的问题分析。"
+  },
+  "repository": "https://github.com/zhilshi/problem-retrospect-skill",
+  "homepage": "https://github.com/zhilshi/problem-retrospect-skill#readme",
+  "triggers": [
+    "复盘",
+    "问题复盘",
+    "做个复盘",
+    "丹纳赫复盘",
+    "项目复盘",
+    "复盘分析",
+    "问题回顾",
+    "事后复盘",
+    "AAR复盘",
+    "快速复盘",
+    "A3报告"
+  ],
+  "methodologies": [
+    {
+      "name": "丹纳赫5Why",
+      "mode": "标准模式",
+      "time": "30-60min",
+      "useCase": "复杂问题、向上汇报"
+    },
+    {
+      "name": "AAR",
+      "mode": "快速模式",
+      "time": "15-30min",
+      "useCase": "任务回顾、小问题"
+    },
+    {
+      "name": "A3",
+      "mode": "可视化报告",
+      "time": "1-2h",
+      "useCase": "跨部门协调、归档"
+    }
+  ],
+  "features": [
+    "5阶段结构化流程",
+    "4Agent并行事实采集",
+    "5Why根因深挖",
+    "检查点用户确认",
+    "向上汇报文档生成",
+    "A3一页纸可视化报告",
+    "SOP检查清单输出",
+    "12种方法论参考"
+  ],
+  "outputFiles": [
+    "01-facts.md",
+    "02-gap-analysis.md",
+    "03-root-cause.md",
+    "04-improvements.md",
+    "复盘报告_完整版.md",
+    "A3报告.md"
+  ],
+  "references": [
+    "danaher-framework.md",
+    "5why-examples.md",
+    "aar-framework.md",
+    "a3-report-guide.md",
+    "report-template.md",
+    "improvement-sop-template.md",
+    "methodology-comparison.md"
+  ],
+  "created": "2026-05-02",
+  "updated": "2026-05-02"
+}
