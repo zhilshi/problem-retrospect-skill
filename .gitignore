@@ -1,0 +1,10 @@
+# Ignore Claude Code internal files
+.claude/
+
+# Ignore working files
+*.tmp
+*.bak
+
+# Keep skill files
+!SKILL.md
+!references/
