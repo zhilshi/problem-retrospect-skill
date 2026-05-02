@@ -110,7 +110,11 @@ Step 5: 快速报告 → 简版复盘文档
 
 ## 许可证
 
-MIT License
+MIT-0 License (MIT No Attribution)
+
+- Free to use, modify, and redistribute
+- No attribution required
+- Compatible with ClawHub publishing requirements
 
 ## 作者
 
